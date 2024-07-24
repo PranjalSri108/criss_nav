@@ -128,3 +128,10 @@ cd criss_nav/scripts
 python detect_publish.py
 ```
 You will now see the Kinect Camera input through `image_viewer`. Make sure that `/aruco_detect/id` is getting published.
+
+---
+### ArUco base Navigation
+Now we will navigate through the Gazebo enviroment by detecting the `ArUco Markers` along the way. We will run a Python script to do all this.
+
+- Components of `nav.py`
+  - Subscribes to the topic `/aruco_detect/id`
