@@ -135,8 +135,9 @@ Now we will navigate through the Gazebo enviroment by detecting the `ArUco Marke
 
 - Components of `nav.py`
   - Subscribes to the topics: `/aruco_detect/id` and `/odom`
-  - Calculates the next nav_goal by using `/odom` data to estimate the bot's position
-  - 
+  - Calculates the next `nav_goal` by using `/odom` data to estimate the bot's position
+  - Applies Trignometry to calculate the coordinates of the next `nav_goal`
+  - Sends to coordinates of nav_goal to the bot using `move_base_client`
  
 - Work of `nav.py`
   - When detects a Marker ID 15: Turn the bot 90 degrees to the left and move straight until another marker is detected.
