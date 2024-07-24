@@ -127,11 +127,17 @@ roslaunch criss_nav navros_aruco_control.launch
 cd criss_nav/scripts
 python detect_publish.py
 ```
-You will now see the Kinect Camera input through `image_viewer`. Make sure that `/aruco_detect/id` is getting published.
+You will now see the Kinect Camera input through `image_viewer`. you can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
 
 ---
 ### ArUco base Navigation
-Now we will navigate through the Gazebo enviroment by detecting the `ArUco Markers` along the way. We will run a Python script to do all this.
+Now we will navigate through the Gazebo enviroment by detecting the `ArUco Markers` along the way. We will run a Python script `nav.py` to do all this.
 
 - Components of `nav.py`
-  - Subscribes to the topic `/aruco_detect/id`
+  - Subscribes to the topics: `/aruco_detect/id` and `/odom`
+  - Calculates the next nav_goal by using `/odom` data to estimate the bot's position
+  - 
+ 
+- Work of `nav.py`
+  - When detects a Marker ID 15: Turn the bot 90 degrees to the left and move straight until another marker is detected.
+  - When detects a Maker ID 16: Stops the bot
