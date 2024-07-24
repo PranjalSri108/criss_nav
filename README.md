@@ -112,6 +112,8 @@ rviz -d octomap.rviz
 ```
 You can now map the environment using the `Teleop Keyboard Control` with the same settings
 
+![alt text](https://github.com/PranjalSri108/criss_nav/blob/main/octomap.jpg?raw=true)
+
 ---
 ## ArUco Marker Detection
 We will now use `Kinect Camera Plugin` to detect the `ArUco Markers` present in our environment. 
@@ -130,6 +132,8 @@ cd criss_nav/scripts
 python detect_publish.py
 ```
 You will now see the Kinect Camera input through `image_viewer`. you can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
+
+![alt text](https://github.com/PranjalSri108/criss_nav/blob/main/aruco_detect.jpg?raw=true)
 
 ---
 ## ArUco based Navigation
