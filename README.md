@@ -209,7 +209,7 @@ cd criss_nav/scripts
 python nav.py
 ```
 
-- Run `detect_publish.py` to publish detect Marker ID
+- Run `detect_publish.py` to publish detected Marker ID
   
 ```bash
 cd criss_nav/scripts
