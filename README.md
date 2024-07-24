@@ -111,7 +111,7 @@ rviz -d octomap.rviz
 You can now map the environment using the `Teleop Keyboard Control` with the same settings
 
 ---
-### ArUco Marker Detection
+## ArUco Marker Detection
 We will now use `Kinect Camera Plugin` to detect the `ArUco Markers` present in our environment. 
 We will then launch a Python script to publish the detected Marker ID to topic `/aruco_detect/id`
 
@@ -130,7 +130,7 @@ python detect_publish.py
 You will now see the Kinect Camera input through `image_viewer`. you can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
 
 ---
-### ArUco based Navigation
+## ArUco based Navigation
 Now we will navigate through the Gazebo enviroment by detecting the `ArUco Markers` along the way. We will run a Python script `nav.py` to do all this.
 
 - Components of `nav.py`
