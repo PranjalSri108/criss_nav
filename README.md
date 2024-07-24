@@ -18,6 +18,8 @@ roslaunch hector_slam_launch tutorial.launch
 
 The RViz window will launch and you can start mapping by controlling the bot using Teleop Keyboard Control
 - Launch Teleop Keyboard Control
+  - Set Linear speed = 0.20
+  - Set Angular speed = 0.25
 
 ```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
