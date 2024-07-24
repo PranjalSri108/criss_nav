@@ -27,6 +27,7 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ---
 ## 3D Octomap 
 We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Camera Plugin
+- But before launching the bot in gazebo, make sure the 'min' and 'max' params for Kinect plugin in gazebo_plugins.urdf.xacro are updated as given below
 
 ```xacro
    <!-- Plugin for Kinect sensor -->
@@ -45,7 +46,7 @@ We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Cam
 
            </depth_camera>
            <clip>
-                <near>0.1</near>
+                <near>0.1</near>        # These Params
                 <far>2.5</far>
            </clip>
        </camera>
