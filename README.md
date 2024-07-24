@@ -47,7 +47,7 @@ We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Cam
            </depth_camera>
            <clip>
                 <near>0.1</near>        # These Params
-                <far>2.5</far>
+                <far>100.0</far>
            </clip>
        </camera>
 ```
