@@ -79,8 +79,26 @@ You can now map the environment using the Teleop Keyboard Control with the same 
 
 ---
 ## Move_Base Navigation
-We will now implement move_base on our bot to navigate though our 2D Gazebo world map. We will use our preloaded aruco_map.yaml map
+We will now implement move_base on our bot to navigate though our 2D Gazebo world map. We will use our preloaded 'aruco_map.yaml' map
 
 - Tech Stack of move_base
   - Global Costmap Path Planner: Dijkstra algorithmn
   - Local Costmap Path Planner: DWA planner
+
+- Launch bot in Gazebo
+
+``` bash
+roslaunch criss_nav navros_aruco_control.launch
+```
+
+- Launch AMCL
+
+```bash
+roslaunch criss_nav amcl.launch
+```
+
+- Launch move_base
+
+```bash
+roslaunch criss_nav move_base.launch
+```
