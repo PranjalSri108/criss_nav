@@ -1,0 +1,14 @@
+global_costmap:
+   global_frame: /map
+   static_map: true
+   rolling_window: false
+   
+   update_frequency: 1.0
+   publish_frequency: 0.5
+   transform_tolerance: 2.5
+   
+   plugins:
+     - {name: static_layer,            type: "costmap_2d::StaticLayer"}
+     - {name: obstacle_layer,          type: "costmap_2d::VoxelLayer"}
+     - {name: inflation_layer,         type: "costmap_2d::InflationLayer"}
+

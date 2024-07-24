@@ -1,0 +1,494 @@
+15:32:15: Creating resource group General
+15:32:15: Creating resource group Internal
+15:32:15: Creating resource group Autodetect
+15:32:15: SceneManagerFactory for type 'DefaultSceneManager' registered.
+15:32:15: Registering ResourceManager for type Material
+15:32:15: Registering ResourceManager for type Mesh
+15:32:15: Registering ResourceManager for type Skeleton
+15:32:15: MovableObjectFactory for type 'ParticleSystem' registered.
+15:32:15: ArchiveFactory for archive type FileSystem registered.
+15:32:15: ArchiveFactory for archive type Zip registered.
+15:32:15: ArchiveFactory for archive type EmbeddedZip registered.
+15:32:15: DDS codec registering
+15:32:15: FreeImage version: 3.18.0
+15:32:15: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+15:32:15: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,psb,cut,xbm,xpm,gif,hdr,g3,sgi,rgb,rgba,bw,exr,j2k,j2c,jp2,pfm,pct,pict,pic,3fr,arw,bay,bmq,cap,cine,cr2,crw,cs1,dc2,dcr,drf,dsc,dng,erf,fff,ia,iiq,k25,kc2,kdc,mdc,mef,mos,mrw,nef,nrw,orf,pef,ptx,pxn,qtk,raf,raw,rdc,rw2,rwl,rwz,sr2,srf,srw,sti,x3f,webp,jxr,wdp,hdp
+15:32:15: PVRTC codec registering
+15:32:15: ETC codec registering
+15:32:15: Registering ResourceManager for type HighLevelGpuProgram
+15:32:15: Registering ResourceManager for type Compositor
+15:32:15: MovableObjectFactory for type 'Entity' registered.
+15:32:15: MovableObjectFactory for type 'Light' registered.
+15:32:15: MovableObjectFactory for type 'BillboardSet' registered.
+15:32:15: MovableObjectFactory for type 'ManualObject' registered.
+15:32:15: MovableObjectFactory for type 'BillboardChain' registered.
+15:32:15: MovableObjectFactory for type 'RibbonTrail' registered.
+15:32:15: *-*-* OGRE Initialising
+15:32:15: *-*-* Version 1.9.0 (Ghadamon)
+15:32:15: OverlayElementFactory for type Panel registered.
+15:32:15: OverlayElementFactory for type BorderPanel registered.
+15:32:15: OverlayElementFactory for type TextArea registered.
+15:32:15: Registering ResourceManager for type Font
+15:32:15: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so
+15:32:15: Installing plugin: GL RenderSystem
+15:32:15: OpenGL Rendering Subsystem created.
+15:32:15: Plugin successfully installed
+15:32:15: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_ParticleFX.so
+15:32:15: Installing plugin: ParticleFX
+15:32:15: Particle Emitter Type 'Point' registered
+15:32:15: Particle Emitter Type 'Box' registered
+15:32:15: Particle Emitter Type 'Ellipsoid' registered
+15:32:15: Particle Emitter Type 'Cylinder' registered
+15:32:15: Particle Emitter Type 'Ring' registered
+15:32:15: Particle Emitter Type 'HollowEllipsoid' registered
+15:32:15: Particle Affector Type 'LinearForce' registered
+15:32:15: Particle Affector Type 'ColourFader' registered
+15:32:15: Particle Affector Type 'ColourFader2' registered
+15:32:15: Particle Affector Type 'ColourImage' registered
+15:32:15: Particle Affector Type 'ColourInterpolator' registered
+15:32:15: Particle Affector Type 'Scaler' registered
+15:32:15: Particle Affector Type 'Rotator' registered
+15:32:15: Particle Affector Type 'DirectionRandomiser' registered
+15:32:15: Particle Affector Type 'DeflectorPlane' registered
+15:32:15: Plugin successfully installed
+15:32:15: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_BSPSceneManager.so
+15:32:15: Installing plugin: BSP Scene Manager
+15:32:15: Plugin successfully installed
+15:32:15: Loading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_OctreeSceneManager.so
+15:32:15: Installing plugin: Octree Scene Manager
+15:32:15: Plugin successfully installed
+15:32:15: CPU Identifier & Features
+15:32:15: -------------------------
+15:32:15:  *   CPU ID: GenuineIntel: 12th Gen Intel(R) Core(TM) i5-1240P
+15:32:15:  *      SSE: yes
+15:32:15:  *     SSE2: yes
+15:32:15:  *     SSE3: yes
+15:32:15:  *      MMX: yes
+15:32:15:  *   MMXEXT: yes
+15:32:15:  *    3DNOW: no
+15:32:15:  * 3DNOWEXT: no
+15:32:15:  *     CMOV: yes
+15:32:15:  *      TSC: yes
+15:32:15:  *      FPU: yes
+15:32:15:  *      PRO: yes
+15:32:15:  *       HT: no
+15:32:15: -------------------------
+15:32:15: ******************************
+*** Starting GLX Subsystem ***
+******************************
+15:32:15: Registering ResourceManager for type Texture
+15:32:15: Added resource location '/usr/share/gazebo-11/' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media' of type 'FileSystem' to resource group 'General'
+15:32:15: Creating resource group SkyX
+15:32:15: Added resource location '/usr/share/gazebo-11/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/media/models' of type 'FileSystem' to resource group 'General'
+15:32:15: Creating resource group Fonts
+15:32:15: Added resource location '/usr/share/gazebo-11/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Creating resource group LookNFeel
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:32:15: Creating resource group Schemes
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:32:15: Creating resource group Imagesets
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Creating resource group Layouts
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:32:15: Creating resource group Animations
+15:32:15: Added resource location '/usr/share/gazebo-11/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/media/models' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:32:15: Added resource location '/usr/share/gazebo/../../share/gazebo-11/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/media/models' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:32:15: Added resource location '/home/robosobo/catkin_ws/src/hector_gazebo/hector_gazebo_worlds/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/media/models' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:32:15: Added resource location '/opt/ros/noetic/share/gazebo_plugins/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/skyx' of type 'FileSystem' to resource group 'SkyX'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/rtshaderlib150' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/rtshaderlib' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/materials/programs' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/materials/scripts' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/materials/textures' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/media/models' of type 'FileSystem' to resource group 'General'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/looknfeel' of type 'FileSystem' to resource group 'LookNFeel'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/schemes' of type 'FileSystem' to resource group 'Schemes'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/imagesets' of type 'FileSystem' to resource group 'Imagesets'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/fonts' of type 'FileSystem' to resource group 'Fonts'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/layouts' of type 'FileSystem' to resource group 'Layouts'
+15:32:15: Added resource location '/opt/ros/noetic/share/turtlebot3_gazebo/media/gui/animations' of type 'FileSystem' to resource group 'Animations'
+15:32:15: GLRenderSystem::_createRenderWindow "OgreWindow(0)", 1x1 windowed  miscParams: FSAA=4 border=none contentScalingFactor=1.000000 macAPI=cocoa macAPICocoaUseNSView=true parentWindowHandle=102760449 stereoMode=Frame Sequential 
+15:32:15: GLXWindow::create used FBConfigID = 699
+15:32:15: GL_VERSION = 4.6 (Compatibility Profile) Mesa 21.2.6
+15:32:15: GL_VENDOR = Intel
+15:32:15: GL_RENDERER = Mesa Intel(R) Graphics (ADL GT2)
+15:32:15: GL_EXTENSIONS = GL_ARB_multisample GL_EXT_abgr GL_EXT_bgra GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_copy_texture GL_EXT_subtexture GL_EXT_texture_object GL_EXT_vertex_array GL_EXT_compiled_vertex_array GL_EXT_texture GL_EXT_texture3D GL_IBM_rasterpos_clip GL_ARB_point_parameters GL_EXT_draw_range_elements GL_EXT_packed_pixels GL_EXT_point_parameters GL_EXT_rescale_normal GL_EXT_separate_specular_color GL_EXT_texture_edge_clamp GL_SGIS_generate_mipmap GL_SGIS_texture_border_clamp GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod GL_ARB_framebuffer_sRGB GL_ARB_multitexture GL_EXT_framebuffer_sRGB GL_IBM_multimode_draw_arrays GL_IBM_texture_mirrored_repeat GL_3DFX_texture_compression_FXT1 GL_ARB_texture_cube_map GL_ARB_texture_env_add GL_ARB_transpose_matrix GL_EXT_blend_func_separate GL_EXT_fog_coord GL_EXT_multi_draw_arrays GL_EXT_secondary_color GL_EXT_texture_env_add GL_EXT_texture_filter_anisotropic GL_EXT_texture_lod_bias GL_INGR_blend_func_separate GL_NV_blend_square GL_NV_light_max_exponent GL_NV_texgen_reflection GL_NV_texture_env_combine4 GL_S3_s3tc GL_SUN_multi_draw_arrays GL_ARB_texture_border_clamp GL_ARB_texture_compression GL_EXT_framebuffer_object GL_EXT_texture_compression_s3tc GL_EXT_texture_env_combine GL_EXT_texture_env_dot3 GL_MESA_window_pos GL_NV_packed_depth_stencil GL_NV_texture_rectangle GL_ARB_depth_texture GL_ARB_occlusion_query GL_ARB_shadow GL_ARB_texture_env_combine GL_ARB_texture_env_crossbar GL_ARB_texture_env_dot3 GL_ARB_texture_mirrored_repeat GL_ARB_window_pos GL_ATI_fragment_shader GL_EXT_stencil_two_side GL_EXT_texture_cube_map GL_NV_depth_clamp GL_NV_fog_distance GL_NV_half_float GL_APPLE_packed_pixels GL_ARB_draw_buffers GL_ARB_fragment_program GL_ARB_fragment_shader GL_ARB_shader_objects GL_ARB_vertex_program GL_ARB_vertex_shader GL_ATI_draw_buffers GL_ATI_texture_env_combine3 GL_ATI_texture_float GL_EXT_depth_bounds_test GL_EXT_shadow_funcs GL_EXT_stencil_wrap GL_MESA_pack_invert GL_NV_primitive_restart GL_ARB_depth_clamp GL_ARB_fragment_program_shadow GL_ARB_half_float_pixel GL_ARB_occlusion_query2 GL_ARB_point_sprite GL_ARB_shading_language_100 GL_ARB_sync GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ATI_blend_equation_separate GL_EXT_blend_equation_separate GL_OES_read_format GL_ARB_color_buffer_float GL_ARB_pixel_buffer_object GL_ARB_texture_compression_rgtc GL_ARB_texture_float GL_ARB_texture_rectangle GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_rectangle GL_EXT_texture_sRGB GL_EXT_texture_shared_exponent GL_ARB_framebuffer_object GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_packed_depth_stencil GL_ARB_vertex_array_object GL_ATI_separate_stencil GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_gpu_program_parameters GL_EXT_gpu_shader4 GL_EXT_texture_array GL_EXT_texture_integer GL_EXT_texture_sRGB_decode GL_EXT_timer_query GL_OES_EGL_image GL_AMD_performance_monitor GL_EXT_texture_buffer_object GL_AMD_texture_texture4 GL_ARB_copy_buffer GL_ARB_depth_buffer_float GL_ARB_draw_instanced GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_map_buffer_range GL_ARB_texture_buffer_object GL_ARB_texture_rg GL_ARB_texture_swizzle GL_ARB_vertex_array_bgra GL_EXT_texture_swizzle GL_EXT_vertex_array_bgra GL_NV_conditional_render GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_ARB_ES2_compatibility GL_ARB_blend_func_extended GL_ARB_compatibility GL_ARB_debug_output GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_explicit_attrib_location GL_ARB_fragment_coord_conventions GL_ARB_provoking_vertex GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_shader_stencil_export GL_ARB_shader_texture_lod GL_ARB_tessellation_shader GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_cube_map_array GL_ARB_texture_gather GL_ARB_texture_multisample GL_ARB_texture_query_lod GL_ARB_texture_rgb10_a2ui GL_ARB_uniform_buffer_object GL_ARB_vertex_type_2_10_10_10_rev GL_EXT_provoking_vertex GL_EXT_texture_snorm GL_MESA_texture_signed_rgba GL_NV_copy_image GL_NV_texture_barrier GL_ARB_draw_indirect GL_ARB_get_program_binary GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_robustness GL_ARB_separate_shader_objects GL_ARB_shader_bit_encoding GL_ARB_shader_precision GL_ARB_shader_subroutine GL_ARB_texture_compression_bptc GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_vertex_attrib_64bit GL_ARB_viewport_array GL_EXT_direct_state_access GL_EXT_vertex_attrib_64bit GL_AMD_multi_draw_indirect GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_base_instance GL_ARB_compressed_texture_pixel_storage GL_ARB_conservative_depth GL_ARB_internalformat_query GL_ARB_map_buffer_alignment GL_ARB_shader_atomic_counters GL_ARB_shader_image_load_store GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_texture_storage GL_ARB_transform_feedback_instanced GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_transform_feedback GL_AMD_query_buffer_object GL_AMD_shader_trinary_minmax GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_clear_buffer_object GL_ARB_compute_shader GL_ARB_copy_image GL_ARB_explicit_uniform_location GL_ARB_fragment_layer_viewport GL_ARB_framebuffer_no_attachments GL_ARB_invalidate_subdata GL_ARB_multi_draw_indirect GL_ARB_program_interface_query GL_ARB_robust_buffer_access_behavior GL_ARB_shader_image_size GL_ARB_shader_storage_buffer_object GL_ARB_stencil_texturing GL_ARB_texture_buffer_range GL_ARB_texture_query_levels GL_ARB_texture_storage_multisample GL_ARB_texture_view GL_ARB_vertex_attrib_binding GL_KHR_debug GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_AMD_pinned_memory GL_ARB_buffer_storage GL_ARB_clear_texture GL_ARB_compute_variable_group_size GL_ARB_enhanced_layouts GL_ARB_indirect_parameters GL_ARB_internalformat_query2 GL_ARB_multi_bind GL_ARB_query_buffer_object GL_ARB_seamless_cubemap_per_texture GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shading_language_include GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_stencil8 GL_ARB_vertex_type_10f_11f_11f_rev GL_EXT_shader_framebuffer_fetch GL_EXT_shader_integer_mix GL_INTEL_performance_query GL_ARB_ES3_1_compatibility GL_ARB_clip_control GL_ARB_conditional_render_inverted GL_ARB_cull_distance GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_get_texture_sub_image GL_ARB_pipeline_statistics_query GL_ARB_shader_texture_image_samples GL_ARB_texture_barrier GL_ARB_transform_feedback_overflow_query GL_EXT_polygon_offset_clamp GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_robust_buffer_access_behavior GL_ARB_fragment_shader_interlock GL_ARB_gpu_shader_int64 GL_ARB_parallel_shader_compile GL_ARB_post_depth_coverage GL_ARB_shader_atomic_counter_ops GL_ARB_shader_ballot GL_ARB_shader_clock GL_ARB_shader_viewport_layer_array GL_EXT_shader_samples_identical GL_EXT_texture_sRGB_R8 GL_KHR_no_error GL_KHR_texture_compression_astc_sliced_3d GL_NV_fragment_shader_interlock GL_ARB_gl_spirv GL_ARB_spirv_extensions GL_MESA_shader_integer_functions GL_ARB_polygon_offset_clamp GL_ARB_texture_filter_anisotropic GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_semaphore GL_EXT_semaphore_fd GL_KHR_parallel_shader_compile GL_EXT_EGL_image_storage GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_texture_shadow_lod GL_INTEL_blackhole_render GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_MESA_framebuffer_flip_y GL_NV_compute_shader_derivatives GL_EXT_EGL_sync GL_EXT_demote_to_helper_invocation 
+15:32:15: Supported GLX extensions: GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_import_context GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_swap_method GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+15:32:15: ***************************
+15:32:15: *** GL Renderer Started ***
+15:32:15: ***************************
+15:32:15: Registering ResourceManager for type GpuProgram
+15:32:15: GLSL support detected
+15:32:15: GL: Using GL_EXT_framebuffer_object for rendering to textures (best)
+15:32:15: FBO PF_UNKNOWN depth/stencil support: D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_L8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_L16 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_R5G6B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_B5G6R5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A4R4G4B4 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A1R5G5B5 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_B8G8R8A8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A2R10G10B10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_A2B10G10R10 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT16_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT16_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT32_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT32_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_X8R8G8B8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_X8B8G8R8 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_SHORT_RGBA depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_R3G3B2 depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT16_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_FLOAT32_R depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: FBO PF_SHORT_RGB depth/stencil support: D0S0 D0S1 D0S4 D0S8 D0S16 D16S0 D24S0 D32S0 Packed-D24S8 
+15:32:15: [GL] : Valid FBO targets PF_UNKNOWN PF_L8 PF_L16 PF_A8 PF_R5G6B5 PF_B5G6R5 PF_A4R4G4B4 PF_A1R5G5B5 PF_R8G8B8 PF_B8G8R8 PF_A8R8G8B8 PF_B8G8R8A8 PF_A2R10G10B10 PF_A2B10G10R10 PF_FLOAT16_RGB PF_FLOAT16_RGBA PF_FLOAT32_RGB PF_FLOAT32_RGBA PF_X8R8G8B8 PF_X8B8G8R8 PF_SHORT_RGBA PF_R3G3B2 PF_FLOAT16_R PF_FLOAT32_R PF_SHORT_RGB 
+15:32:15: RenderSystem capabilities
+15:32:15: -------------------------
+15:32:15: RenderSystem Name: OpenGL Rendering Subsystem
+15:32:15: GPU Vendor: intel
+15:32:15: Device Name: Mesa Intel(R) Graphics (ADL GT2)
+15:32:15: Driver Version: 4.6.0.0
+15:32:15:  * Fixed function pipeline: yes
+15:32:15:  * Hardware generation of mipmaps: no
+15:32:15:  * Texture blending: yes
+15:32:15:  * Anisotropic texture filtering: yes
+15:32:15:  * Dot product texture operation: yes
+15:32:15:  * Cube mapping: yes
+15:32:15:  * Hardware stencil buffer: yes
+15:32:15:    - Stencil depth: 8
+15:32:15:    - Two sided stencil support: yes
+15:32:15:    - Wrap stencil values: yes
+15:32:15:  * Hardware vertex / index buffers: yes
+15:32:15:  * Vertex programs: yes
+15:32:15:  * Number of floating-point constants for vertex programs: 2048
+15:32:15:  * Number of integer constants for vertex programs: 0
+15:32:15:  * Number of boolean constants for vertex programs: 0
+15:32:15:  * Fragment programs: yes
+15:32:15:  * Number of floating-point constants for fragment programs: 2048
+15:32:15:  * Number of integer constants for fragment programs: 0
+15:32:15:  * Number of boolean constants for fragment programs: 0
+15:32:15:  * Geometry programs: no
+15:32:15:  * Number of floating-point constants for geometry programs: 0
+15:32:15:  * Number of integer constants for geometry programs: 40728
+15:32:15:  * Number of boolean constants for geometry programs: 14342
+15:32:15:  * Tesselation Hull programs: no
+15:32:15:  * Number of floating-point constants for tesselation hull programs: 0
+15:32:15:  * Number of integer constants for tesselation hull programs: 0
+15:32:15:  * Number of boolean constants for tesselation hull programs: 0
+15:32:15:  * Tesselation Domain programs: no
+15:32:15:  * Number of floating-point constants for tesselation domain programs: 0
+15:32:15:  * Number of integer constants for tesselation domain programs: 40824
+15:32:15:  * Number of boolean constants for tesselation domain programs: 14342
+15:32:15:  * Compute programs: no
+15:32:15:  * Number of floating-point constants for compute programs: 32619
+15:32:15:  * Number of integer constants for compute programs: 0
+15:32:15:  * Number of boolean constants for compute programs: 1
+15:32:15:  * Supported Shader Profiles: arbfp1 arbvp1 glsl ps_1_1 ps_1_2 ps_1_3 ps_1_4
+15:32:15:  * Texture Compression: yes
+15:32:15:    - DXT: yes
+15:32:15:    - VTC: no
+15:32:15:    - PVRTC: no
+15:32:15:    - ATC: no
+15:32:15:    - ETC1: no
+15:32:15:    - ETC2: no
+15:32:15:    - BC4/BC5: no
+15:32:15:    - BC6H/BC7: no
+15:32:15:  * Scissor Rectangle: yes
+15:32:15:  * Hardware Occlusion Query: yes
+15:32:15:  * User clip planes: yes
+15:32:15:  * VET_UBYTE4 vertex element type: yes
+15:32:15:  * Infinite far plane projection: yes
+15:32:15:  * Hardware render-to-texture: yes
+15:32:15:  * Floating point textures: yes
+15:32:15:  * Non-power-of-two textures: yes
+15:32:15:  * 1d textures: yes
+15:32:15:  * Volume textures: yes
+15:32:15:  * Multiple Render Targets: 8
+15:32:15:    - With different bit depths: yes
+15:32:15:  * Point Sprites: yes
+15:32:15:  * Extended point parameters: yes
+15:32:15:  * Max Point Size: 255
+15:32:15:  * Vertex texture fetch: yes
+15:32:15:  * Number of world matrices: 0
+15:32:15:  * Number of texture units: 16
+15:32:15:  * Stencil buffer depth: 8
+15:32:15:  * Number of vertex blend matrices: 0
+15:32:15:    - Max vertex textures: 32
+15:32:15:    - Vertex textures shared: yes
+15:32:15:  * Render to Vertex Buffer : no
+15:32:15:  * Hardware Atomic Counters: no
+15:32:15:  * GL 1.5 without VBO workaround: no
+15:32:15:  * Frame Buffer objects: yes
+15:32:15:  * Frame Buffer objects (ARB extension): no
+15:32:15:  * Frame Buffer objects (ATI extension): no
+15:32:15:  * PBuffer support: yes
+15:32:15:  * GL 1.5 without HW-occlusion workaround: no
+15:32:15:  * Vertex Array Objects: no
+15:32:15:  * Separate shader objects: no
+15:32:15: Using FSAA from GL_ARB_multisample extension.
+15:32:15: DefaultWorkQueue('Root') initialising on thread 7f6b4299dec0.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6acb7fe700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ab6849700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ab5046700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ac8c71700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ab4845700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ab6048700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa77fe700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa6ffd700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa5ffb700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa7fff700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa4ff9700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa67fc700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6a737fe700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6ab5847700 starting.
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6a73fff700 starting.
+15:32:15: Particle Renderer Type 'billboard' registered
+15:32:15: DefaultWorkQueue('Root')::WorkerFunc - thread 7f6aa57fa700 starting.
+15:32:15: SceneManagerFactory for type 'BspSceneManager' registered.
+15:32:15: Registering ResourceManager for type BspLevel
+15:32:15: SceneManagerFactory for type 'OctreeSceneManager' registered.
+15:32:15: Parsing scripts for resource group Animations
+15:32:15: Finished parsing scripts for resource group Animations
+15:32:15: Creating resources for group Animations
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Autodetect
+15:32:15: Finished parsing scripts for resource group Autodetect
+15:32:15: Creating resources for group Autodetect
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Fonts
+15:32:15: Parsing script Gazebo.fontdef
+15:32:15: Parsing script Gazebo.fontdef
+15:32:15: Finished parsing scripts for resource group Fonts
+15:32:15: Creating resources for group Fonts
+15:32:15: All done
+15:32:15: Parsing scripts for resource group General
+15:32:15: Parsing script shadow_caster.program
+15:32:15: Parsing script shadow_caster_ignore_heightmap.program
+15:32:15: Parsing script deferred_post.program
+15:32:15: Parsing script perpixel.program
+15:32:15: Parsing script VPL.program
+15:32:15: Parsing script ShadowCaster.program
+15:32:15: Parsing script StdQuad_vp.program
+15:32:15: Parsing script shadow_caster.program
+15:32:15: Parsing script shadow_caster_ignore_heightmap.program
+15:32:15: Parsing script deferred_post.program
+15:32:15: Parsing script perpixel.program
+15:32:15: Parsing script VPL.program
+15:32:15: Parsing script ShadowCaster.program
+15:32:15: Parsing script StdQuad_vp.program
+15:32:15: Parsing script deform.material
+15:32:15: Parsing script spotlight_shadow_demo.material
+15:32:15: Parsing script SSAOPost.material
+15:32:15: Parsing script picker.material
+15:32:15: Parsing script deferred_post.material
+15:32:15: Parsing script GBuffer.material
+15:32:15: Parsing script oculus.material
+15:32:15: Parsing script Modulate.material
+15:32:15: Parsing script blur.material
+15:32:15: Parsing script gazebo.material
+15:32:15: Parsing script CreaseShading.material
+15:32:15: Parsing script grid.material
+15:32:15: Parsing script VPL.material
+15:32:15: Parsing script ssao.material
+15:32:15: Parsing script kitchen.material
+15:32:15: Parsing script ShadowCaster.material
+15:32:15: Parsing script deferred_post_minilight.material
+15:32:15: Parsing script point_light_shadow_demo.material
+15:32:15: Parsing script deform.material
+15:32:15: Parsing script spotlight_shadow_demo.material
+15:32:15: Parsing script SSAOPost.material
+15:32:15: Parsing script picker.material
+15:32:15: Parsing script deferred_post.material
+15:32:15: Parsing script GBuffer.material
+15:32:15: Parsing script oculus.material
+15:32:15: Parsing script Modulate.material
+15:32:15: Parsing script blur.material
+15:32:15: Parsing script gazebo.material
+15:32:15: Parsing script CreaseShading.material
+15:32:15: Parsing script grid.material
+15:32:15: Parsing script VPL.material
+15:32:15: Parsing script ssao.material
+15:32:15: Parsing script kitchen.material
+15:32:15: Parsing script ShadowCaster.material
+15:32:15: Parsing script deferred_post_minilight.material
+15:32:15: Parsing script point_light_shadow_demo.material
+15:32:15: Parsing script ssao.compositor
+15:32:15: Parsing script lens_flare.compositor
+15:32:15: Parsing script distortion.compositor
+15:32:15: Parsing script SSAOPost.compositor
+15:32:15: Parsing script WideCameraLensMap.compositor
+15:32:15: Parsing script CreaseShading.compositor
+15:32:15: Parsing script deferred.compositor
+15:32:15: Parsing script blur.compositor
+15:32:15: Parsing script noise.compositor
+15:32:15: Parsing script ssao.compositor
+15:32:15: Parsing script lens_flare.compositor
+15:32:15: Parsing script distortion.compositor
+15:32:15: Parsing script SSAOPost.compositor
+15:32:15: Parsing script WideCameraLensMap.compositor
+15:32:15: Parsing script CreaseShading.compositor
+15:32:15: Parsing script deferred.compositor
+15:32:15: Parsing script blur.compositor
+15:32:15: Parsing script noise.compositor
+15:32:15: Finished parsing scripts for resource group General
+15:32:15: Creating resources for group General
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Imagesets
+15:32:15: Finished parsing scripts for resource group Imagesets
+15:32:15: Creating resources for group Imagesets
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Internal
+15:32:15: Finished parsing scripts for resource group Internal
+15:32:15: Creating resources for group Internal
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Layouts
+15:32:15: Finished parsing scripts for resource group Layouts
+15:32:15: Creating resources for group Layouts
+15:32:15: All done
+15:32:15: Parsing scripts for resource group LookNFeel
+15:32:15: Finished parsing scripts for resource group LookNFeel
+15:32:15: Creating resources for group LookNFeel
+15:32:15: All done
+15:32:15: Parsing scripts for resource group Schemes
+15:32:15: Finished parsing scripts for resource group Schemes
+15:32:15: Creating resources for group Schemes
+15:32:15: All done
+15:32:15: Parsing scripts for resource group SkyX
+15:32:15: Parsing script SkyX.material
+15:32:15: Parsing script SkyX.material
+15:32:15: Finished parsing scripts for resource group SkyX
+15:32:15: Creating resources for group SkyX
+15:32:15: All done
+15:32:15: Added resource location '/usr/share/gazebo-11/media/rtshaderlib/' of type 'FileSystem' to resource group 'General'
+15:32:15: Creating resource group ShaderGeneratorResourceGroup
+15:32:15: Added resource location '/tmp/gazebo-robosobo-rtshaderlibcache/' of type 'FileSystem' to resource group 'ShaderGeneratorResourceGroup'
+15:32:15: Texture: SkyX_Starfield.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:32:15: Texture: SkyX_Moon.png: Loading 1 faces(PF_A8R8G8B8,512x512x1) with 5 generated mipmaps from Image. Internal format is PF_A8R8G8B8,512x512x1.
+15:32:15: Texture: SkyX_MoonHalo.png: Loading 1 faces(PF_SHORT_RGBA,512x256x1) with 5 generated mipmaps from Image. Internal format is PF_SHORT_RGBA,512x256x1.
+15:32:16: Texture: Noise.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+15:32:16: GLRenderSystem::_createRenderWindow "OgreWindow(1)", 1398x800 windowed  miscParams: FSAA=4 contentScalingFactor=1.000000 macAPI=cocoa macAPICocoaUseNSView=true parentWindowHandle=109051957 stereoMode=Frame Sequential 
+15:32:16: GLXWindow::create used FBConfigID = 699
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/grey_wall/materials/scripts' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Compiler error: invalid parameters in /home/robosobo/.gazebo/models/grey_wall/materials/scripts/grey_wall.material(11): anistropic not supported as first argument (must be "none", "bilinear", "trilinear", or "anisotropic")
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/grey_wall/materials/tex15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=15/meshes' of type 'FileSystem' to resource15:32:16: Texture: grey_wall.png: Loading 1 faces(PF_R8G8B8,3600x1233x1) with 5 generated mipmaps from Image. Internal format is PF_X8R8G8B8,3600x1233x1.
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=15/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=15/meshes/../materials/textures' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Texture: /home/robosobo/.gazebo/models/aruco-marker-id=15/meshes/../materials/textures/aruco-marker-ID=15.png: Loading 1 faces(PF_L8,116x116x1) with 5 generated mipmaps from Image. Internal format is PF_L8,116x116x1.
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=16/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=16/meshes/../materials/textures' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Texture: /home/robosobo/.gazebo/models/aruco-marker-id=16/meshes/../materials/textures/aruco-marker-ID=16.png: Loading 1 faces(PF_L8,116x116x1) with 5 generated mipmaps from Image. Internal format is PF_L8,116x116x1.
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=17/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=17/meshes/../materials/textures' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Texture: /home/robosobo/.gazebo/models/aruco-marker-id=17/meshes/../materials/textures/aruco-marker-ID=17.png: Loading 1 faces(PF_L8,116x116x1) with 5 generated mipmaps from Image. Internal format is PF_L8,116x116x1.
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=18/meshes' of type 'FileSystem' to resource group 'General' with recursive option
+15:32:16: Initialising resource group General
+15:32:16: Added resource location '/home/robosobo/.gazebo/models/aruco-marker-id=18/meshes/../materials/textures' of type 'FileSystem' to resource group 'General' with recursive op15:32:54: Unregistering ResourceManager for type Font
+15:32:54: DefaultWorkQueue('Root') shutting down on thread 7fc481e1af00.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3d97fa700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3d9ffb700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3da7fc700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3f97fa700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc408c09700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3d8ff9700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3f9ffb700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3f8ff9700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3dbfff700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc40940a700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3fa7fc700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3fbfff700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3faffd700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3db7fe700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3fb7fe700 stopped.
+15:32:54: DefaultWorkQueue('Root')::WorkerFunc - thread 7fc3daffd700 stopped.
+15:32:54: Unregistering ResourceManager for type BspLevel
+15:32:54: *-*-* OGRE Shutdown
+15:32:54: Unregistering ResourceManager for type Compositor
+15:32:54: Unregistering ResourceManager for type Skeleton
+15:32:54: Unregistering ResourceManager for type Mesh
+15:32:54: Unregistering ResourceManager for type HighLevelGpuProgram
+15:32:54: Uninstalling plugin: Octree Scene Manager
+15:32:54: Plugin successfully uninstalled
+15:32:54: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_OctreeSceneManager.so
+15:32:54: Uninstalling plugin: BSP Scene Manager
+15:32:54: Plugin successfully uninstalled
+15:32:54: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_BSPSceneManager.so
+15:32:54: Uninstalling plugin: ParticleFX
+15:32:54: Plugin successfully uninstalled
+15:32:54: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/Plugin_ParticleFX.so
+15:32:54: Uninstalling plugin: GL RenderSystem
+15:32:54: Unregistering ResourceManager for type GpuProgram
+15:32:54: ******************************
+*** Stopping GLX Subsystem ***
+******************************
+15:32:54: Unregistering ResourceManager for type Texture
+15:32:54: Plugin successfully uninstalled
+15:32:54: Unloading library /usr/lib/x86_64-linux-gnu/OGRE-1.9.0/RenderSystem_GL.so
+15:32:54: Unregistering ResourceManager for type Material

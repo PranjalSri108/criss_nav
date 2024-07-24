@@ -1,0 +1,14 @@
+<?xml version="1.0" ?><sdf version="1.4">
+  <model name="aruco-marker-ID=19">
+    <static>true</static>
+    <link name="link">
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://aruco-marker-id=19/meshes/aruco-marker-ID=19.dae</uri>
+          <scale>2.2 2.2 2.2</scale></mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>

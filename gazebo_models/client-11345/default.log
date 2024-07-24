@@ -1,0 +1,23 @@
+Gazebo multi-robot simulator, version 11.11.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1721815335 228663876) [Msg] Waiting for master.
+(1721815335 238987826) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1721815335 239010844) [Msg] Publicized address: 192.168.119.182
+(1721815335 239185447) Loaded .ini file from: "/home/robosobo/.gazebo/gui.ini"
+(1721815335 537145027) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_autorace"
+(1721815335 537221937) model.config file is missing in directory["/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_autorace"]
+(1721815335 537283525) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_autorace_2020"
+(1721815335 537358077) model.config file is missing in directory["/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_autorace_2020"]
+(1721815335 537443274) [Err] [InsertModelWidget.cc:403] Missing model.config for model "/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_common_meshes"
+(1721815335 537517807) model.config file is missing in directory["/opt/ros/noetic/share/turtlebot3_gazebo/models/turtlebot3_common_meshes"]
+(1721815335 537772182) Invalid filename or directory["/home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_map.pgm"] in GAZEBO_MODEL_PATH. It's not a good idea to put extra files in a GAZEBO_MODEL_PATH because the file structure may be modified by Gazebo.
+(1721815335 537841219) Invalid filename or directory["/home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_map.world"] in GAZEBO_MODEL_PATH. It's not a good idea to put extra files in a GAZEBO_MODEL_PATH because the file structure may be modified by Gazebo.
+(1721815335 537910218) Invalid filename or directory["/home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_map.yaml"] in GAZEBO_MODEL_PATH. It's not a good idea to put extra files in a GAZEBO_MODEL_PATH because the file structure may be modified by Gazebo.
+(1721815335 537978708) Invalid filename or directory["/home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_nav.world"] in GAZEBO_MODEL_PATH. It's not a good idea to put extra files in a GAZEBO_MODEL_PATH because the file structure may be modified by Gazebo.
+(1721815335 538048264) Invalid filename or directory["/home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_nav_octomap.bt"] in GAZEBO_MODEL_PATH. It's not a good idea to put extra files in a GAZEBO_MODEL_PATH because the file structure may be modified by Gazebo.
+(1721815335 780372791) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1721815336 500238085) No spacenav daemon found. Spacenav functionality is disabled

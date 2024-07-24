@@ -1,0 +1,12 @@
+Gazebo multi-robot simulator, version 11.11.0
+Copyright (C) 2012 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1721815335 180069214) [Msg] Waiting for master.
+(1721815335 188200642) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1721815335 188219503) [Msg] Publicized address: 192.168.119.182
+(1721815335 371888166) [Msg] Loading world file [/home/robosobo/catkin_ws/src/criss_nav/worlds/aruco_nav.world]
+(1721815335 448195568) Init world[default]
+(1721815336 68268642) [Wrn] [Event.cc:61] Warning: Deleting a connection right after creation. Make sure to save the ConnectionPtr from a Connect call

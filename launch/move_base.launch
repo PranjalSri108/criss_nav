@@ -1,0 +1,46 @@
+<launch>
+  
+  <arg name="odom_frame_id"   default="odom"/>
+  <arg name="base_frame_id"   default="base_link"/>
+  <arg name="global_frame_id" default="map"/>
+  <arg name="odom_topic" default="/odom" />
+  <arg name="laser_topic" default="/scan" />
+
+  <!-- Map server -->
+  <node name="map_server" pkg="map_server" type="map_server" args="$(find criss_nav)/maps/aruco_map.yaml" /> 
+
+  <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
+    <rosparam file="$(find navros_pkg)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find navros_pkg)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />   
+    <rosparam file="$(find navros_pkg)/param/local_costmap_params.yaml" command="load" />   
+    <rosparam file="$(find navros_pkg)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find navros_pkg)/param/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find navros_pkg)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find navros_pkg)/param/navfn_global_planner_params.yaml" command="load" />
+    
+    
+    <!-- reset frame_id parameters using user input data -->
+    <param name="global_costmap/global_frame" value="map"/>
+    <param name="global_costmap/robot_base_frame" value="$(arg base_frame_id)"/>
+    <param name="local_costmap/global_frame" value="map"/>
+    <param name="local_costmap/robot_base_frame" value="$(arg base_frame_id)"/>
+    <param name="DWAPlannerROS/global_frame_id" value="$(arg odom_frame_id)"/>
+    
+    <param name="global_costmap/global_frame" value="map"/>
+    <param name="global_costmap/robot_base_frame" value="base_link"/>
+    <param name="local_costmap/global_frame" value="odom"/>
+    <param name="local_costmap/robot_base_frame" value="base_link"/>
+     
+    <param name="transform_tolerance" value="2.5" />
+    <param name="/tf2_buffer_length" value="30.0"/>
+
+    <remap from="odom" to="$(arg odom_topic)"/>
+    <remap from="scan" to="$(arg laser_topic)"/>
+    
+  </node>
+  
+  <node pkg="tf" type="static_transform_publisher" name="base_to_laser" 
+      args="0 0 0 0 0 0 base_link laser_frame 100" />
+      
+</launch>
+
