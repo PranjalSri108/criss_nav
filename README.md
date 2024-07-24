@@ -49,6 +49,14 @@ roslaunch criss_nav amcl.launch
 ```bash
 roslaunch criss_nav move_base.launch
 ```
+- Visualize in RViz
+
+```bash
+cd /criss_nav/rviz
+rviz -d move_base.rviz
+```
+ You can now set 2D nav_goal in RViz
+
 ---
 ## 3D Octomap 
 We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Camera Plugin
