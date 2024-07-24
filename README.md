@@ -52,7 +52,7 @@ roslaunch criss_nav move_base.launch
 - Visualize in RViz
 
 ```bash
-cd /criss_nav/rviz
+cd criss_nav/rviz
 rviz -d move_base.rviz
 ```
  You can now set 2D nav_goal in RViz
@@ -105,7 +105,7 @@ roslaunch criss_nav octomap.launch
 - Visualize in RViz
 
 ```bash
-cd /criss_nav/rviz
+cd criss_nav/rviz
 rviz -d octomap.rviz
 ```
 You can now map the environment using the Teleop Keyboard Control with the same settings
