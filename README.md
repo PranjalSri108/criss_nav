@@ -1,5 +1,5 @@
-## CRISS NAV
-### 2D LiDAR Mapping
+# CRISS NAV
+## 2D LiDAR Mapping
 We are going to use Hector_Slam to create a Map of our Gazebo environment with LiDAR
 - Launching our bot in Gazebo environment:
 
@@ -76,5 +76,6 @@ cd /criss_nav/rviz
 rviz -d octomap.rviz
 ```
 You can now map the environment using the Teleop Keyboard Control with the same settings
+
 ---
-### Move_Base Navigation
+## Move_Base Navigation
