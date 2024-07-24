@@ -51,3 +51,18 @@ We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Cam
            </clip>
        </camera>
 ```
+- Launch bot in Gazebo
+
+  
+```bash
+$ cd /path/to/catkin_src_folder
+```
+``` bash
+roslaunch criss_nav navros_aruco_control.launch
+```
+
+- Launch SLAM
+
+```bash
+roslaunch hector_slam_launch tutorial.launch
+```
