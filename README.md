@@ -138,7 +138,34 @@ Now we will navigate through the Gazebo enviroment by detecting the `ArUco Marke
   - Calculates the next `nav_goal` by using `/odom` data to estimate the bot's position
   - Applies Trignometry to calculate the coordinates of the next `nav_goal`
   - Sends to coordinates of nav_goal to the bot using `move_base_client`
+  - Uses move_base to navigate.
  
 - Work of `nav.py`
   - When detects a Marker ID 15: Turn the bot 90 degrees to the left and move straight until another marker is detected.
+  - Used move_base to navigate through the environment.
   - When detects a Maker ID 16: Stops the bot
+
+But before launching the bot in gazebo, make sure the 'min' and 'max' params for Kinect plugin in `gazebo_plugins.urdf.xacro` are updated as given below
+
+```xacro
+   <!-- Plugin for Kinect sensor -->
+   <gazebo reference="kinect">
+       <sensor type="depth" name="camera1">
+       <always_on>1</always_on>
+       <visualize>true</visualize>             
+       <camera>
+           <horizontal_fov>1.047</horizontal_fov>  
+           <image>
+               <width>640</width>
+               <height>480</height>
+               <format>R8G8B8</format>
+           </image>
+           <depth_camera>
+
+           </depth_camera>
+           <clip>
+                <near>0.1</near>        # These Params
+                <far>2.5</far>
+           </clip>
+       </camera>
+```
