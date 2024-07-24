@@ -75,4 +75,4 @@ roslaunch criss_nav octomap.launch
 cd /criss_nav/rviz
 rviz -d octomap.rviz
 ```
-You can now map the environment usign Teleop Keyboard Control with the same settings
+You can now map the environment using the Teleop Keyboard Control with the same settings
