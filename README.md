@@ -56,6 +56,8 @@ cd criss_nav/rviz
 rviz -d move_base.rviz
 ```
  You can now set `2D nav_goal` in RViz to visualize navigation.
+ 
+![alt text](https://github.com/PranjalSri108/criss_nav/blob/main/move_base.jpg?raw=true)
 
 ---
 ## 3D Octomap 
