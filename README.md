@@ -130,7 +130,7 @@ python detect_publish.py
 You will now see the Kinect Camera input through `image_viewer`. you can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
 
 ---
-### ArUco base Navigation
+### ArUco based Navigation
 Now we will navigate through the Gazebo enviroment by detecting the `ArUco Markers` along the way. We will run a Python script `nav.py` to do all this.
 
 - Components of `nav.py`
@@ -169,3 +169,22 @@ But before launching the bot in gazebo, make sure the 'min' and 'max' params for
            </clip>
        </camera>
 ```
+
+- Launch bot in Gazebo
+
+``` bash
+roslaunch criss_nav navros_aruco_control.launch
+```
+
+- Launch AMCL
+
+```bash
+roslaunch criss_nav amcl.launch
+```
+
+- Launch move_base
+
+```bash
+roslaunch criss_nav move_base.launch
+```
+
