@@ -4,7 +4,7 @@ We are going to use Hector_Slam to create a Map of our Gazebo environment with L
 - Launching our bot in Gazebo environment:
 
 ```bash
-$ cd /path/to/catkin_src_folder
+cd /path/to/catkin_src_folder
 ```
 ``` bash
 roslaunch criss_nav navros_aruco_control.launch
@@ -53,10 +53,6 @@ We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Cam
 ```
 - Launch bot in Gazebo
 
-  
-```bash
-$ cd /path/to/catkin_src_folder
-```
 ``` bash
 roslaunch criss_nav navros_aruco_control.launch
 ```
@@ -65,4 +61,17 @@ roslaunch criss_nav navros_aruco_control.launch
 
 ```bash
 roslaunch hector_slam_launch tutorial.launch
+```
+
+- Launch Octomap
+
+```bash
+roslaunch criss_nav octomap.launch
+```
+
+- Visualize in RViz
+
+```bash
+cd /criss_nav/rviz
+rviz -d octomap.rviz
 ```
