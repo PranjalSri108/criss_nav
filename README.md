@@ -1,6 +1,6 @@
 # CRISS NAV
 ## 2D LiDAR Mapping
-We are going to use Hector_Slam to create a Map of our Gazebo environment with LiDAR
+We are going to use `Hector_Slam` to create a Map of our Gazebo environment with `LiDAR`
 - Launching our bot in Gazebo environment:
 
 ```bash
@@ -16,7 +16,7 @@ roslaunch criss_nav navros_aruco_control.launch
 roslaunch hector_slam_launch tutorial.launch
 ```
 
-The RViz window will launch and you can start mapping by controlling the bot using Teleop Keyboard Control
+The RViz window will launch and you can start mapping by controlling the bot using `Teleop Keyboard Control`
 - Launch Teleop Keyboard Control
   - Set Linear speed = 0.20
   - Set Angular speed = 0.25
@@ -26,11 +26,11 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 ---
 ## Move_Base Navigation
-We will now implement move_base on our bot to navigate though our 2D Gazebo world map. We will use our preloaded 'aruco_map.yaml' map
+We will now implement `move_base` on our bot to navigate though our 2D Gazebo world map. We will use our preloaded `aruco_map.yaml` map
 
 - Tech Stack of move_base
-  - Global Costmap Path Planner: Dijkstra algorithmn
-  - Local Costmap Path Planner: DWA planner
+  - Global Costmap Path Planner: `Dijkstra algorithmn`
+  - Local Costmap Path Planner: `DWA planner`
 
 - Launch bot in Gazebo
 
@@ -59,8 +59,8 @@ rviz -d move_base.rviz
 
 ---
 ## 3D Octomap 
-We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Camera Plugin
-- But before launching the bot in gazebo, make sure the 'min' and 'max' params for Kinect plugin in gazebo_plugins.urdf.xacro are updated as given below
+We will now map a 3D Octomap of our environment using `Hector_Slam` and `Kinect Camera Plugin`
+- But before launching the bot in gazebo, make sure the 'min' and 'max' params for Kinect plugin in `gazebo_plugins.urdf.xacro` are updated as given below
 
 ```xacro
    <!-- Plugin for Kinect sensor -->
@@ -108,6 +108,8 @@ roslaunch criss_nav octomap.launch
 cd criss_nav/rviz
 rviz -d octomap.rviz
 ```
-You can now map the environment using the Teleop Keyboard Control with the same settings
+You can now map the environment using the `Teleop Keyboard Control` with the same settings
 
 ---
+### ArUco Marker Detection
+We will 
