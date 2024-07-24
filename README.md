@@ -3,7 +3,7 @@
 - 2D LiDAR Mapping
 - Move_base Navigation
 - 3D Octomap Mapping
-- ArUco Marker Detection in stimulted environment
+- ArUco Marker Detection in stimulated environment
 - ArUco based Navigation
 
 ---
