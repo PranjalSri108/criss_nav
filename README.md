@@ -24,4 +24,6 @@ The RViz window will launch and you can start mapping by controlling the bot usi
 ```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+---
+## 3D Octomap 
 
