@@ -188,3 +188,18 @@ roslaunch criss_nav amcl.launch
 roslaunch criss_nav move_base.launch
 ```
 
+- Run `nav.py` to initiate the `move_base_client`
+
+```bash
+cd criss_nav/scripts
+python nav.py
+```
+
+- Run `detect_publish.py` to publish detect Marker ID
+  
+```bash
+cd criss_nav/scripts
+python detect_publish.py
+```
+You can observe the bot navigating in Gazebo using the ArUco Markers.
+
