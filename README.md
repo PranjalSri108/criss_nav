@@ -24,7 +24,6 @@ roslaunch criss_nav navros_aruco_control.launch
 roslaunch hector_slam_launch tutorial.launch
 ```
 
-The RViz window will launch and you can start mapping by controlling the bot using `Teleop Keyboard Control`
 - Launch Teleop Keyboard Control
   - Set Linear speed = 0.20
   - Set Angular speed = 0.25
@@ -32,6 +31,9 @@ The RViz window will launch and you can start mapping by controlling the bot usi
 ```bash
 rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
+
+The RViz window will launch and you can start mapping by controlling the bot using `Teleop Keyboard Control`
+
 ---
 ## Move_Base Navigation
 We will now implement `move_base` on our bot to navigate though our 2D Gazebo world map. We will use our preloaded `aruco_map.yaml` map
