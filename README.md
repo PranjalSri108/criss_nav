@@ -69,6 +69,8 @@ roslaunch hector_slam_launch tutorial.launch
 roslaunch criss_nav octomap.launch
 ```
 
+- You can now map the environment usign Teleop Keyboard Control with the same settings
+
 - Visualize in RViz
 
 ```bash
