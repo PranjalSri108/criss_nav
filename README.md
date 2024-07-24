@@ -55,7 +55,7 @@ roslaunch criss_nav move_base.launch
 cd criss_nav/rviz
 rviz -d move_base.rviz
 ```
- You can now set 2D nav_goal in RViz to visualize navigation.
+ You can now set `2D nav_goal` in RViz to visualize navigation.
 
 ---
 ## 3D Octomap 
