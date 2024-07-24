@@ -112,4 +112,4 @@ You can now map the environment using the `Teleop Keyboard Control` with the sam
 
 ---
 ### ArUco Marker Detection
-We will 
+We will now use `Kinect Camera Plugin` to detect the `ArUco Markers` present in our environment. We will then launch a Python script to publish the detected Makers ID to topic `/aruco_detect/id`
