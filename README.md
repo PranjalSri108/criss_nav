@@ -26,4 +26,29 @@ rosrun teleop_twist_keyboard teleop_twist_keyboard.py
 ```
 ---
 ## 3D Octomap 
+We will now map a 3D Octomap of our environment using Hector_Slam and Kinect Camera Plugin
 
+```xacro
+<pre>
+<!-- Plugin for Kinect sensor -->
+<gazebo reference="kinect">
+    <sensor type="depth" name="camera1">
+		<always_on>1</always_on>
+		<visualize>true</visualize>             
+		<camera>
+		    <horizontal_fov>1.047</horizontal_fov>  
+		    <image>
+		        <width>640</width>
+		        <height>480</height>
+		        <format>R8G8B8</format>
+		    </image>
+		    <depth_camera>
+
+		    </depth_camera>
+		    <clip>
+		        <near>0.1</near>
+		        <far>2.5</far>
+		    </clip>
+		</camera>
+</pre>
+```
