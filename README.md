@@ -1,13 +1,5 @@
 # CRISS NAV
-## Overview
-CRISS NAV is a simulated robot designed for 2D LiDAR mapping and navigation in Gazebo. This project utilizes ROS (Robot Operating System) and Gazebo for simulation and control.
-
 ### Tech Stack
-
-#### Simulation Environment
-- **Gazebo:** Used for 3D simulation of the robot and its environment.
-- **ROS:** Robot Operating System for overall robot control and communication.
-
 #### Robot Components
 
 ##### Chassis and Wheels
@@ -42,6 +34,13 @@ CRISS NAV is a simulated robot designed for 2D LiDAR mapping and navigation in G
 - **Point Cloud Topic:** depth/points
 - **Update Rate:** 10 Hz
 - **Resolution:** 640x480
+
+#### Features
+- 2D LiDAR Mapping
+- Move_base Navigation
+- 3D Octomap Mapping
+- ArUco Marker Detection in stimulted environment
+- ArUco based Navigation
 
 ---
 ## 2D LiDAR Mapping
