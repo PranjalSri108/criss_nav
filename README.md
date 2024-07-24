@@ -127,3 +127,4 @@ roslaunch criss_nav navros_aruco_control.launch
 cd criss_nav/scripts
 python detect_publish.py
 ```
+You will now see the Kinect Camera input through `image_viewer`. Make sure that `/aruco_detect/id` is getting published.
