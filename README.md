@@ -1,3 +1,12 @@
-# CRISS NAV
+## CRISS NAV
+### 2D LiDAR Mapping
+We are going to use Hector_Slam to create a Map of our Gazebo environment with LiDAR
+- Launching our bot in Gazebo environment:
 
-## Mapping
+```bash title="navigate"
+$ cd /path/to/criss_nav
+```
+``` bash
+roslaunch criss_nav navros
+```
+
