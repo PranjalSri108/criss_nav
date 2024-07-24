@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/robosobo/catkin_ws/src/criss_nav/build/devel/setup.sh

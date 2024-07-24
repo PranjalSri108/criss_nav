@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: criss_nav
+Description: Description of criss_nav
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
