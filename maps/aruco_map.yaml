@@ -1,4 +1,4 @@
-image: /home/robosobo/catkin_ws/src/mobile_manipulator_body/worlds/aruco_map.pgm
+image: aruco_map.pgm
 resolution: 0.050000
 origin: [-102.424995, -102.424995, 0.000000]
 negate: 0
