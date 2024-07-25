@@ -10,13 +10,13 @@
   <node name="map_server" pkg="map_server" type="map_server" args="$(find criss_nav)/maps/aruco_map.yaml" /> 
 
   <node pkg="move_base" type="move_base" respawn="false" name="move_base" output="screen">
-    <rosparam file="$(find navros_pkg)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
-    <rosparam file="$(find navros_pkg)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />   
-    <rosparam file="$(find navros_pkg)/param/local_costmap_params.yaml" command="load" />   
-    <rosparam file="$(find navros_pkg)/param/global_costmap_params.yaml" command="load" />
-    <rosparam file="$(find navros_pkg)/param/dwa_local_planner_params.yaml" command="load" />
-    <rosparam file="$(find navros_pkg)/param/move_base_params.yaml" command="load" />
-    <rosparam file="$(find navros_pkg)/param/navfn_global_planner_params.yaml" command="load" />
+    <rosparam file="$(find criss_nav)/params/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find criss_nav)/params/costmap_common_params.yaml" command="load" ns="local_costmap" />   
+    <rosparam file="$(find criss_nav)/params/local_costmap_params.yaml" command="load" />   
+    <rosparam file="$(find criss_nav)/params/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find criss_nav)/params/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find criss_nav)/params/move_base_params.yaml" command="load" />
+    <rosparam file="$(find criss_nav)/params/navfn_global_planner_params.yaml" command="load" />
     
     
     <!-- reset frame_id parameters using user input data -->
