@@ -10,7 +10,7 @@
 ## 2D LiDAR Mapping
 We are going to use `Hector_Slam` to create a Map of our Gazebo environment with `LiDAR`
 
-- Set up Gazebo to load ArUco Markers. Run this everytimm you launch a new terminal
+- Set up Gazebo to load ArUco Markers. Run this everytime you launch a new terminal
 
 ```bash
 cd /path/to/catkin_ws
