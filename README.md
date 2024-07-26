@@ -6,6 +6,8 @@
 - ArUco Marker Detection in stimulated environment
 - ArUco based Navigation
 
+![alt text](https://github.com/PranjalSri108/criss_nav/blob/main/depth.jpg?raw=true)
+
 ---
 ## 2D LiDAR Mapping
 We are going to use `Hector_Slam` to create a Map of our Gazebo environment with `LiDAR`
