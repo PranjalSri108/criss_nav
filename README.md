@@ -154,7 +154,7 @@ roslaunch criss_nav navros_aruco_control.launch
 cd criss_nav/scripts
 python detect_publish.py
 ```
-You will now see the Kinect Camera input through `image_viewer`. you can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
+You will now see the Kinect Camera input through `image_viewer`. You can now use `Teleop Keyboard Control` to move around to detect markers. Make sure that `/aruco_detect/id` is getting published.
 
 ![alt text](https://github.com/PranjalSri108/criss_nav/blob/main/aruco_detect.jpg?raw=true)
 
@@ -171,7 +171,7 @@ Now we will navigate through the Gazebo enviroment by detecting the `ArUco Marke
  
 - Work of `nav.py`
   - When detects a Marker ID 15: Turn the bot 90 degrees to the left and move straight until another marker is detected.
-  - Used move_base to navigate through the environment.
+  - Uses move_base to navigate through the environment.
   - When detects a Maker ID 16: Stops the bot
 
 But before launching the bot in gazebo, make sure the 'min' and 'max' params for Kinect plugin in `gazebo_plugins.urdf.xacro` are updated as given below
